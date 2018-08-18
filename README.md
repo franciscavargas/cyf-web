@@ -5,6 +5,10 @@
 npm install
 ```
 
+## Styling
+https://github.com/zeit/styled-jsx
+
+
 ## To run locally
 ```
 npm run dev
