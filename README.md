@@ -1,5 +1,10 @@
 # cyf-web
 
+## Setup
+```
+npm install
+```
+
 ## To run locally
 ```
 npm run dev
