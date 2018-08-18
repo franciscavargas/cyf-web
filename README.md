@@ -1,8 +1,8 @@
 # cyf-web
 
-# To run locally
+## To run locally
 ```
 npm run dev
 ```
 
-http://localhost:3000
+And it serves the web in: http://localhost:3000
