@@ -72,6 +72,20 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./main-style.css":
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/bootstrap/dist/css/bootstrap.min.css":
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./pages/_document.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82,6 +96,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("next/document");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap_dist_css_bootstrap_min_css__ = __webpack_require__("./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap_dist_css_bootstrap_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_bootstrap_dist_css_bootstrap_min_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__main_style_css__ = __webpack_require__("./main-style.css");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__main_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__main_style_css__);
 var _jsxFileName = "/Users/francisca/dev-octocat/cyf-web/pages/_document.js";
 
 
@@ -98,6 +116,8 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
 
 
 
@@ -118,40 +138,40 @@ function (_Document) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 6
+          lineNumber: 8
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 9
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "/_next/static/style.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 10
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 11
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 13
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 14
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 15
         }
       })));
     }
