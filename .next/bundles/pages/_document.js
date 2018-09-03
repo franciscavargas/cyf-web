@@ -1713,7 +1713,7 @@ function (_Document) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "/.next/static/style.css",
+        href: "/_next/static/style.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
